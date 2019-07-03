@@ -24,12 +24,29 @@
       </nav>
       <hr/>
 
-		<h2>Second Title</h2>
-		<p>
-			</p>
-
+<sec id="contactForm">
+      <p>
+        <form action="submit.html" method="POST">
+          <label for="name">Name:</label><br/>
+          <input type="text" id="name" name="name"> <br/>
+          <label for="email">Email:</label><br/>
+          <input type="text" id="email" name="email"><br/>
+          <label for="phoneNumber">Phone:</label><br/>
+          <input type="text" id="phoneNumber" name="phoneNumber"><br/>
+        <br/>
+        <label for="reason">Reason for Inquiry:</label>
+        <select name="catering" name="reason"> <option value="default" selected>Catering</option>
+        <option value="inquiry" name="inquiry">Other Inquiry</option>
+        </select><br/>
+        <br/>
+  			<label for="visitedRestaurant">Have you been to the restaurant?</label>
+  			<input type="radio" id="choice1" name="visitedRestaurant" value="no"checked="checked"><label for= "choice1">No</label>
+  			<input type="radio" id="choice2" name="visitedRestaurant" value="yes"><label for="choice2">Yes</label>
+  			<br/>
+        <hr/>
 <footer>
-
+  <p>Street, City, State, Zipcode</p>
+  <p>Telephone Number</p>
 </footer>
 </body>
 
