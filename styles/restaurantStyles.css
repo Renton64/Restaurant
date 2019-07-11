@@ -1,0 +1,46 @@
+
+footer {
+  text-align: center;
+  background-color: #998888;
+  font-weight: medium;
+}
+
+body {
+  background-color: #eadeda;
+}
+
+nav .btn:hover {
+            font-weight: bold;
+          }
+
+a .btn:active {
+  text-decoration: none;
+}
+
+div.jumbotron {
+  background-color: #998888;
+}
+
+.jumbotron h1{
+  font-size: 70px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav {
+    border-top:thin #BFB8AD solid;
+    border-bottom: thin #BFB8AD solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+
+nav .btn {
+      background-color: #823329;
+      color: #EADEDA;
+    }
+
+table {
+  background-color: #BFB8AD;
+}

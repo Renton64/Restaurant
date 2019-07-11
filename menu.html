@@ -2,26 +2,45 @@
 <!--
     Name: Sarah Fuoss
     Date Created: 7/03/2019
-    Most recent revision: 7/05/2019
+    Most recent revision: 7/11/2019
 -->
+
+<!--Add a section to the menu for beverages, with a table like the one below.
+Style this table to match your site's look and feel.
+Apply all styles for the menu and contact form in internal style sheets. -->
+
 <html>
 <html lang=”en”>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" conent="width-device-width, initial-scale=1, shrink-to-fit:no">
     <title>Menu</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" conent="width-device-width, initial-scale=1, shrink-to-fit:no">
+    <title>Home Page</title>
+    <!--Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/download/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel = "stylesheet" href="styles/restaurantStyles.css" type="text/css" />
+    <style>
+
+
+    </style>
   </head>
 
 <body>
-  <header>
-  <h1>Restaurant Name</h1>
-  <hr/>
-  </header>
+  <div id="header">
+    <div class="jumbotron">
+        <h1>Twin City Eats</h1>
+    </div>
+  </div>
 
-			<nav>
-        <a href ="index.html" target="_self">Home</a>
-        <a href ="menu.html" target="_self">Menu</a>
-        <a href ="contact.html" target="_self">Contact Us</a>
-      </nav>
-      <hr/>
+<div class ="container">
+  <nav>
+    <a class = "btn badge-pill" href = "index.html" target="_self">Home</a>
+    <a class = "btn badge-pill" href = "menu.html" target="_self">Menu</a>
+    <a class = "btn badge-pill" href ="contact.html" target="_self">Contact Us</a>
+  </nav>
 
   <main>
     <table>
@@ -51,9 +70,11 @@
   </main>
 
 <footer>
-<p>Street, City, State, Zipcode</p>
-<p>Telephone Number</p>
+<p>55 Main Street, Saint Paul, Minnesota</p>
+<p>(555)555-5555</p>
 </footer>
+
+</div>
 </body>
 
 </html>
