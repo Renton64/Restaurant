@@ -21,8 +21,9 @@ Apply all styles for the menu and contact form in internal style sheets. -->
 				font-family: 'Overpass', sans-serif;
 			}
 
-
-
+			form {
+				text-align: center;
+			}
 
 		</style>
 	</head>
@@ -40,18 +41,17 @@ Apply all styles for the menu and contact form in internal style sheets. -->
 			<a class = "btn badge-pill" href = "index.html" target="_self">Home</a>
 			<a class = "btn badge-pill" href = "menu.html" target="_self">Menu</a>
 			<a class = "btn badge-pill" href ="contact.html" target="_self">Contact Us</a>
-		</nav>
-      <hr/>
+		</nav><br/>
 
 			<main>
 				<div id="contactForm">
 					<form>
         		<form action="submit.html" method="POST">
-          		<label for="name"><strong>Name:</strong></label><br/>
+          		<label for="name"><strong>Name:</strong></label>
           			<input type="text" id="name" name="name" required> <br/>
-          		<label for="email" name="id"><strong>Email:</strong></label><br/>
+          		<label for="email" name="id"><strong>Email:</strong></label>
           			<input type="text" id="email" name="email" required><br/>
-          		<label for="phoneNumber"><strong>Phone:</strong></label><br/>
+          		<label for="phoneNumber"><strong>Phone:</strong></label>
           			<input type="text" id="phoneNumber" name="phoneNumber" required><br/><br/>
         			<label for="reason">Reason for Inquiry:</label>
         				<select name="catering" name="reason"> <option value="default" selected>Catering</option>

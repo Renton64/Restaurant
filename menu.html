@@ -24,6 +24,27 @@ Apply all styles for the menu and contact form in internal style sheets. -->
     <link rel = "stylesheet" href="styles/restaurantStyles.css" type="text/css" />
     <style>
 
+      table {
+        background-color: #BFB8AD;
+      }
+
+      table,th {
+        padding-top: 50px;
+      }
+
+      th {
+        font-size:20px;
+      }
+
+
+      table, td {
+        text-align:center;
+      }
+
+      main {
+        padding-bottom: 25px;
+      }
+
 
     </style>
   </head>
@@ -40,15 +61,15 @@ Apply all styles for the menu and contact form in internal style sheets. -->
     <a class = "btn badge-pill" href = "index.html" target="_self">Home</a>
     <a class = "btn badge-pill" href = "menu.html" target="_self">Menu</a>
     <a class = "btn badge-pill" href ="contact.html" target="_self">Contact Us</a>
-  </nav>
+  </nav><br/>
 
   <main>
     <table>
       <table width="100%";>
         <tr>
-          <td><strong>Burgers and Fries</strong></td>
-          <td><strong>Hot Dogs and Chips</strong></td>
-          <td><strong>Italian Sausage and Peppers</strong></td>
+          <th scope="col">Burgers and Fries</th>
+          <th scope="col">Hot Dogs and Chips</th>
+          <th scope="col">Italian Sausage and Peppers</th>
         </tr>
         <tr>
           <td>An American Classic!<br/>Your choice-with or without cheese.<br/>Pickle, onion, tomato, and lettuce<br/> Served with our house made chips<br/>$8.95</td>
@@ -56,17 +77,41 @@ Apply all styles for the menu and contact form in internal style sheets. -->
           <td>An All-Time Favorite!<br/>Your choice- mild or spicy Cole Slaw<br/>Served with garlic mashers<br/>$10.95</td>
         </tr>
         <tr>
-          <td><strong>Tenderloin Sandwich and Chips</strong></td>
-          <td><strong>House Salad</strong></td>
-          <td><strong>Brisket Sandwich and Fries</strong></td>
+          <th scope="col">Tenderloin Sandwich and Chips</th>
+          <th scope="col">House Salad</th>
+          <th scope="col">Brisket Sandwich and Fries</th>
         </tr>
         <tr>
           <td>Really Hits the Spot!<br/>Plain or Seasame Seed Bun<br/>Pickle, onion, tomato, and lettuce.<br/>Served with our house made chips<br/>$8.95</td>
           <td>On the Lighter Side<br/>Your choice- with or without cheese<br/>Iceburg lettuce, tomatoes, peppers<br/>Thousand Island or Ranch<br/>DressingServed with a dinner role<br/>$6.95</td>
           <td>A Taste of Texas!<br/>Smoked Brisket on thick-cut<br/>Texas Toast<br/>Served with our famous thick-cut<br/>french fries<br>$7.95</td>
         </tr>
+
       </table>
-      <hr/>
+    </table>
+
+  <table id="beverages">
+    <table class="table table-striped" border="thin black">
+        <th colspan="12">Beverages</th>
+      <tr>
+        <td colspan="10">Root Beer</td>
+          <td>$7.95</td>
+        </tr>
+      <tr>
+        <td colspan="10">Bottled Water</td>
+        <td>$7.95</td>
+      </tr>
+      <tr>
+        <td colspan="10">Lemonade</td>
+        <td>$7.95</td>
+      </tr>
+      <tr>
+        <td colspan="10">Iced Tea</td>
+        <td>$7.95</td>
+      </tr>
+    </table>
+    </table>
+
   </main>
 
 <footer>

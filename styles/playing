@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="card-columns">
+    <div class="card card-body">
+        <h1>Burgers and Fries</h1>
+        <p class="small">Enjoy lots of things to eat in this great plce that u can eat</p>
+    </div>
+  </div>
+</div>
+
+
+<!--same table defining row size -->
+    <table width ="80%";>
+      <div class="row">
+        <th scope="row-md-3">Burgers and Fries</th>
+        <th scope="row-md-3">Hot Dogs and Chips</th>
+        <th scope="row-md-3">Italian Sausage and Peppers</th>
+      </div>
+      <tr>
+        <td scope="col-md-3">An American Cassic! Your choice-with or without cheese. Pickle, onion, tomato, and lettuce. Served with our housemade chips</td>
+        <td scope=col-md-3">Your choice-white or wheat bun. Relish, mustard, and ketchup. Served with our house made chips.</td>
+        <td scope="col-md-3">Yor choice- mild or spicy Cole Slaw Served with garlic mashers</td>
+      </tr>
+      <tr>
+        <td scope="col-md-3">$8.95</td>
+        <td scope="col-md-3">$7.95</td>
+        <td scope="col-md-3">$10.95</td>
+      </tr>
+
+      <div class="row">
+        <tr>
+          <th scope="row-md-3">Tenderloin Sandwich and Chips</th>
+          <th scope="row-md-3">House Salad</th>
+          <th scope="row-md-3">Brisket Sandwhich and Fries</th>
+        </tr>
+      </div>
+        <tr>
+          <td scope="col-md-3">Really Hits the Spot! Plain or Seasame Seed Bun Pickle, onion, tomato, and lettuce. Served with our house made chips</td>
+          <td scope="col-md-3">On the Lighter Side Your choice- with or without cheese Iceburg lettuce, tomatoes, peppers Thousand Island or Ranch DressingServed with a dinner role</td>
+          <td scope="col-md-3">A Taste of Texas! Smoked Brisket on thick-cut Texas Toast Served with our famous thick-cut french fries</td>
+        </tr>
+        <tr>
+          <td scope="col-md-3">$8.95</td>
+          <td scope="col-md-3">$6.95</td>
+          <td scope="col-md-3">$7.95</td>
+        </tr>
+    </table>

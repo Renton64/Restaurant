@@ -3,6 +3,7 @@ footer {
   text-align: center;
   background-color: #998888;
   font-weight: medium;
+  font-family: 'Lobster', cursive;
 }
 
 body {
@@ -21,9 +22,13 @@ div.jumbotron {
   background-color: #998888;
 }
 
+#logo {
+  padding:50px 0px 10px 0px;
+}
+
 .jumbotron h1{
   font-size: 70px;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Lobster', cursive;
   font-weight: bold;
   text-align: center;
 }
@@ -40,7 +45,3 @@ nav .btn {
       background-color: #823329;
       color: #EADEDA;
     }
-
-table {
-  background-color: #BFB8AD;
-}
